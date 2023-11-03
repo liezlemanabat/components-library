@@ -3,7 +3,6 @@ import Badge from "./Badges/Badge"
 import Banner from "./Banners/Banner"
 import Card from "./Cards/Card"
 import Testimonial from "./Testimonials/Testimonial"
-import avatar from "../../assets/test-img.png"
 import ToolTip from "./ToolTip/ToolTip"
 import Toast from "./Toast/Toast"
 import { ToggleContext } from "./Toggles/Toggle"
@@ -44,7 +43,7 @@ export default function Main() {
             
             <h2 className={`title title-${theme}`}>Testimonials</h2>
             <section className="test-container">
-                <Testimonial image={avatar} name="May Andersons" location="Workcation, CTO">
+                <Testimonial name="May Andersons" location="Workcation, CTO">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
                 </Testimonial>
             </section>
