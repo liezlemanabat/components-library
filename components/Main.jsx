@@ -14,15 +14,34 @@ export default function Main() {
     return (
         <main className={`main-${theme}`}>
             <h2 className={`title title-${theme}`}>Badges</h2>
-            <section className="badge-container">
-                <Badge color="gray" className="badge">Badge</Badge>
-                <Badge color="red" className="badge">Badge</Badge>
-                <Badge color="yellow" className="badge">Badge</Badge>
-                <Badge color="green" className="badge">Badge</Badge>
-                <Badge color="blue" className="badge">Badge</Badge>
-                <Badge color="indigo" className="badge">Badge</Badge>
-                <Badge color="purple" className="badge">Badge</Badge>
-                <Badge color="pink" className="badge">Badge</Badge>
+            <section >
+                <div className="badge-container">
+                    <p className="pill-title">Pill</p>
+                    <Badge className="pill-container">
+                        <Badge color="gray" className="badge pill">Badge</Badge>
+                        <Badge color="red" className="badge pill">Badge</Badge>
+                        <Badge color="yellow" className="badge pill">Badge</Badge>
+                        <Badge color="green" className="badge pill">Badge</Badge>
+                        <Badge color="blue" className="badge pill">Badge</Badge>
+                        <Badge color="indigo" className="badge pill">Badge</Badge>
+                        <Badge color="purple" className="badge pill">Badge</Badge>
+                        <Badge color="pink" className="badge pill">Badge</Badge>
+                    </Badge>
+                </div>
+                <div className="badge-container">
+                    <p className="square-title">Square</p>
+                    <Badge className="pill-container">
+                        <Badge color="gray" className="badge square">Badge</Badge>
+                        <Badge color="red" className="badge square">Badge</Badge>
+                        <Badge color="yellow" className="badge square">Badge</Badge>
+                        <Badge color="green" className="badge square">Badge</Badge>
+                        <Badge color="blue" className="badge square">Badge</Badge>
+                        <Badge color="indigo" className="badge square">Badge</Badge>
+                        <Badge color="purple" className="badge square">Badge</Badge>
+                        <Badge color="pink" className="badge square">Badge</Badge>
+                    </Badge>
+                </div>
+                
             </section>
             
             <h2 className={`title title-${theme}`}>Banners</h2>

@@ -6,8 +6,8 @@ export default function Badge({ children, color, className}) {
     const allClasses = classnames(badgeColor, className)
 
     return (
-        <div className={allClasses}>
-            {children}
-        </div>
+            <div className={allClasses}>
+                {children}
+            </div>
     )
 }
